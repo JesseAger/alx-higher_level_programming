@@ -1,5 +1,5 @@
 -- creating a table with properties id and name
-CREATE TABLE IF NOT EXISTS first_table(
+CREATE TABLE IF NOT EXISTS first_table (
        id INT,
-       name VARCHAR
+       name VARCHAR(256)
 );
