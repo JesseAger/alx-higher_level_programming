@@ -1,5 +1,5 @@
 -- creates the table named force-name
 CREATE TABLE IF NOT EXISTS force_name(
        	     id INT,
-	     name VARCHAR NOT NULL
+	     name VARCHAR(256) NOT NULL
 );
