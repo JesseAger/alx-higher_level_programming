@@ -1,5 +1,5 @@
 -- create a table with id not null
 CREATE TABLE IF NOT EXISTS id_not_null(
-id INT NOT NULL AUTO_INCREMENT,
+id INT NOT NULL DEFAULT 1,
 name VARCHAR(256)
-)AUTO_INCREMENT=1;
+);
