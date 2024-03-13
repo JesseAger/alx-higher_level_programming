@@ -1,3 +1,4 @@
+-- genres by rating
 SELECT `name`, SUM(`rate`) AS `rating`
   FROM `tv_genres` AS g
        INNER JOIN `tv_show_genres` AS s
